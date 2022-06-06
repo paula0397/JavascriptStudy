@@ -141,3 +141,27 @@ let ordenarObjeto2 = (obj) =>{
 ordenarObjeto2(arrayCuentas)
 console.log(arrayCuentas);
 
+//---------------------
+
+
+
+let ordenarObjeto2 = (obj) =>{
+    let temporal;
+    
+
+    for ( let i = 0; i < obj.length; i++ ){
+
+        for ( let p = 0; p < obj.length - 1; p++ ){
+            if (obj[p].edadTitular > obj[p + 1].edadTitular){
+                temporal = obj[p];
+                obj[p] = obj[p + 1];
+                obj[p + 1] = temporal;
+            }
+        }
+        
+    }
+
+}
+
+ordenarObjeto2(arrayCuentas)
+console.log(arrayCuentas);
