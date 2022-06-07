@@ -145,7 +145,7 @@ console.log(arrayCuentas);
 
 
 
-let ordenarObjeto2 = (obj) =>{
+let ordenarObjeto3 = (obj) =>{
     let temporal;
     
 
@@ -163,5 +163,5 @@ let ordenarObjeto2 = (obj) =>{
 
 }
 
-ordenarObjeto2(arrayCuentas)
+ordenarObjeto3(arrayCuentas)
 console.log(arrayCuentas);
